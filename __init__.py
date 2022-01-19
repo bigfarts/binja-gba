@@ -37,7 +37,7 @@ X = SegmentFlag.SegmentExecutable
 _SEGMENTS = [
     Segment("EWRAM", start=0x02000000, length=0x00040000, flags=R | W | X),
     Segment("IWRAM", start=0x03000000, length=0x00008000, flags=R | W | X),
-    Segment("IO", start=0x03000000, length=0x000003FF, flags=R | W),
+    Segment("IO", start=0x04000000, length=0x000003FF, flags=R | W),
     Segment("PAL", start=0x05000000, length=0x00000400, flags=R | W),
     Segment("VRAM", start=0x06000000, length=0x00018000, flags=R | W),
     Segment("OAM", start=0x07000000, length=0x00000400, flags=R | W),
