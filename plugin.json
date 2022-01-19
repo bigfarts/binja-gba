@@ -1,0 +1,16 @@
+{
+    "pluginmetadataversion": 2,
+    "name": "gba",
+    "type": ["binaryview"],
+    "api": ["python3"],
+    "description": "load gba roms",
+    "longdescription": "",
+    "license": {
+        "name": "be gay do crime",
+        "text": "be gay do crime"
+    },
+    "platforms": ["Darwin", "Linux", "Windows"],
+    "version": "0.0.1",
+    "author": "bigfarts",
+    "minimumbinaryninjaversion": 3164
+}
