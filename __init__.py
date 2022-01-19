@@ -163,7 +163,7 @@ class GBAView(BinaryView):
             0x01000000,
             0,
             self.size,
-            SegmentFlag.SegmentReadable | SegmentFlag.SegmentExecutable,
+            R | X,
         )
         self.add_auto_section(
             "ROM", 0x08000000, 0x01000000, SectionSemantics.ReadOnlyCodeSectionSemantics
